@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d39pNBnvPk6uy2kOcqc8a2saypwy+V0CaTS9t3evuGHDj8663Qyls7WKD1Wh34y1jmmlHKaearHulDkCKZICTw==",
+  "dgSpecHash": "/5NydyoD8vqJF17dhlF3kGV9TafW7bdTt1SQM73I+PT3AcocSb/SSYPU2j9eus1aQ1V42Cl1jCPP8y8Bnb3iog==",
   "success": true,
-  "projectFilePath": "E:\\SimpleTask\\Project.Api\\Project.Api\\Project.Api.csproj",
+  "projectFilePath": "E:\\SimpleTask\\New folder (2)\\Project.Api\\Project.Api\\Project.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\La Vie\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\La Vie\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

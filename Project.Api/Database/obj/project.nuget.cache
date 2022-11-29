@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EC+yFp748Zzmu5BjMtgZgofQvuavPfWe5wUn0M5rW1L8JzCPWRMDyjga7DKkGAzAGPBGo557B1VEx4za5dJo7A==",
+  "dgSpecHash": "70z0zj+UUwdcc7z0mBkLG2DeFCLgn6zrT9s49HI1mzUgM4qtmVHbgkush/zQFGEePLFs+46abxOv0vkKqmcmbA==",
   "success": true,
-  "projectFilePath": "E:\\SimpleTask\\Project.Api\\Database\\Database.csproj",
+  "projectFilePath": "E:\\SimpleTask\\New folder (2)\\Project.Api\\Database\\Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\La Vie\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\La Vie\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

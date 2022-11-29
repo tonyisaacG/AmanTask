@@ -34,6 +34,7 @@ namespace Repository.Services
                 if (entity == null)
                     return null;
                 
+
                 var employee = AutoMapperConfig.mapperModel.Map<Employee>(entity);
                 
                 _unitOfWork.Employee.Create(employee);
@@ -85,7 +86,9 @@ namespace Repository.Services
             {
                 if (entity == null)
                     return null;
-                var employee = AutoMapperConfig.mapperModel.Map<Employee>(entity);
+                var employee = _unitOfWork.Employee.FindByCondition(dept => dept.Id == entity.Id).FirstOrDefault();
+                if (employee == null)
+                    return null;
                 _unitOfWork.Employee.Update(employee);
                 _unitOfWork.Save();
                 return true;

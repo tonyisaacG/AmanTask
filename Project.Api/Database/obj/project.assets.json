@@ -2018,11 +2018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SimpleTask\\Project.Api\\Database\\Database.csproj",
+      "projectUniqueName": "E:\\SimpleTask\\New folder (2)\\Project.Api\\Database\\Database.csproj",
       "projectName": "Database",
-      "projectPath": "E:\\SimpleTask\\Project.Api\\Database\\Database.csproj",
+      "projectPath": "E:\\SimpleTask\\New folder (2)\\Project.Api\\Database\\Database.csproj",
       "packagesPath": "C:\\Users\\La Vie\\.nuget\\packages\\",
-      "outputPath": "E:\\SimpleTask\\Project.Api\\Database\\obj\\",
+      "outputPath": "E:\\SimpleTask\\New folder (2)\\Project.Api\\Database\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\La Vie\\AppData\\Roaming\\NuGet\\NuGet.Config",

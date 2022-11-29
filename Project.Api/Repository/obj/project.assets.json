@@ -2014,11 +2014,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SimpleTask\\Project.Api\\Repository\\Repository.csproj",
+      "projectUniqueName": "E:\\SimpleTask\\New folder (2)\\Project.Api\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "E:\\SimpleTask\\Project.Api\\Repository\\Repository.csproj",
+      "projectPath": "E:\\SimpleTask\\New folder (2)\\Project.Api\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\La Vie\\.nuget\\packages\\",
-      "outputPath": "E:\\SimpleTask\\Project.Api\\Repository\\obj\\",
+      "outputPath": "E:\\SimpleTask\\New folder (2)\\Project.Api\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\La Vie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2034,11 +2034,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\SimpleTask\\Project.Api\\Database\\Database.csproj": {
-              "projectPath": "E:\\SimpleTask\\Project.Api\\Database\\Database.csproj"
+            "E:\\SimpleTask\\New folder (2)\\Project.Api\\Database\\Database.csproj": {
+              "projectPath": "E:\\SimpleTask\\New folder (2)\\Project.Api\\Database\\Database.csproj"
             },
-            "E:\\SimpleTask\\Project.Api\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "E:\\SimpleTask\\Project.Api\\ViewModels\\ViewModels.csproj"
+            "E:\\SimpleTask\\New folder (2)\\Project.Api\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "E:\\SimpleTask\\New folder (2)\\Project.Api\\ViewModels\\ViewModels.csproj"
             }
           }
         }

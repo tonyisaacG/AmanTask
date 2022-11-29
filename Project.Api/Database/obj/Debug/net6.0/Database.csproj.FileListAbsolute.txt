@@ -12,3 +12,17 @@ E:\SimpleTask\Project.Api\Database\obj\Debug\net6.0\refint\Database.dll
 E:\SimpleTask\Project.Api\Database\obj\Debug\net6.0\Database.pdb
 E:\SimpleTask\Project.Api\Database\obj\Debug\net6.0\Database.genruntimeconfig.cache
 E:\SimpleTask\Project.Api\Database\obj\Debug\net6.0\ref\Database.dll
+E:\SimpleTask\New folder (2)\Project.Api\Database\bin\Debug\net6.0\Database.deps.json
+E:\SimpleTask\New folder (2)\Project.Api\Database\bin\Debug\net6.0\Database.runtimeconfig.json
+E:\SimpleTask\New folder (2)\Project.Api\Database\bin\Debug\net6.0\Database.dll
+E:\SimpleTask\New folder (2)\Project.Api\Database\bin\Debug\net6.0\Database.pdb
+E:\SimpleTask\New folder (2)\Project.Api\Database\obj\Debug\net6.0\Database.csproj.AssemblyReference.cache
+E:\SimpleTask\New folder (2)\Project.Api\Database\obj\Debug\net6.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+E:\SimpleTask\New folder (2)\Project.Api\Database\obj\Debug\net6.0\Database.AssemblyInfoInputs.cache
+E:\SimpleTask\New folder (2)\Project.Api\Database\obj\Debug\net6.0\Database.AssemblyInfo.cs
+E:\SimpleTask\New folder (2)\Project.Api\Database\obj\Debug\net6.0\Database.csproj.CoreCompileInputs.cache
+E:\SimpleTask\New folder (2)\Project.Api\Database\obj\Debug\net6.0\Database.dll
+E:\SimpleTask\New folder (2)\Project.Api\Database\obj\Debug\net6.0\refint\Database.dll
+E:\SimpleTask\New folder (2)\Project.Api\Database\obj\Debug\net6.0\Database.pdb
+E:\SimpleTask\New folder (2)\Project.Api\Database\obj\Debug\net6.0\Database.genruntimeconfig.cache
+E:\SimpleTask\New folder (2)\Project.Api\Database\obj\Debug\net6.0\ref\Database.dll

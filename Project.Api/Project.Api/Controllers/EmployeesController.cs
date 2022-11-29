@@ -65,12 +65,17 @@ namespace Project.Api.Controllers
         [HttpPost("Update")]
         public IActionResult Update(EmployeeVM entity)
         {
-            var res = _employeeService.Update(entity);
-            if (res == null)
-                return BadRequest();
-            if (res == false)
-                return NotFound();
-            return Ok();
+            if (ModelState.IsValid)
+            {
+                var res = _employeeService.Update(entity);
+                if (res == null)
+                    return BadRequest();
+                if (res == false)
+                    return NotFound();
+                return Ok();
+            }
+            else { return BadRequest(); }
+
         }
     }
 }

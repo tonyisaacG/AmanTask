@@ -13,3 +13,18 @@ E:\SimpleTask\Project.Api\ViewModels\obj\Debug\net6.0\ref\ViewModels.dll
 E:\SimpleTask\Project.Api\ViewModels\bin\Debug\net6.0\Database.dll
 E:\SimpleTask\Project.Api\ViewModels\bin\Debug\net6.0\Database.pdb
 E:\SimpleTask\Project.Api\ViewModels\obj\Debug\net6.0\ViewModels.csproj.CopyComplete
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\bin\Debug\net6.0\ViewModels.deps.json
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\bin\Debug\net6.0\ViewModels.dll
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\bin\Debug\net6.0\ViewModels.pdb
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\bin\Debug\net6.0\Database.dll
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\bin\Debug\net6.0\Database.pdb
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\obj\Debug\net6.0\ViewModels.csproj.AssemblyReference.cache
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\obj\Debug\net6.0\ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\obj\Debug\net6.0\ViewModels.AssemblyInfoInputs.cache
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\obj\Debug\net6.0\ViewModels.AssemblyInfo.cs
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\obj\Debug\net6.0\ViewModels.csproj.CoreCompileInputs.cache
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\obj\Debug\net6.0\ViewModels.csproj.CopyComplete
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\obj\Debug\net6.0\ViewModels.dll
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\obj\Debug\net6.0\refint\ViewModels.dll
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\obj\Debug\net6.0\ViewModels.pdb
+E:\SimpleTask\New folder (2)\Project.Api\ViewModels\obj\Debug\net6.0\ref\ViewModels.dll

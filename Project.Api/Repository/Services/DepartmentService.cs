@@ -81,8 +81,10 @@ namespace Repository.Services
             {
                 if (entity == null)
                     return null;
-                var department = AutoMapperConfig.mapperModel.Map<Department>(entity);
-                _unitOfWork.Department.Update(department);
+                var depart = _unitOfWork.Department.FindByCondition(dept => dept.Id == entity.Id).FirstOrDefault();
+                if (depart == null)
+                    return null;
+                _unitOfWork.Department.Update(depart);
                 _unitOfWork.Save();
                 return true;
             }
