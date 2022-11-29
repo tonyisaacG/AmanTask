@@ -1,0 +1,22 @@
+<div class="row justify-content-center align-item-center pt-5">
+    <div class="card" style="width: 22rem;">
+        <div class="card-body">
+          <h4 class="card-title">Card Department</h4>
+          <p class="card-text ps-3">inforamtion about department.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5>Name Of Department  : </h5>
+            <p class="ps-4">{{departmentEntity.name}}</p>
+        </li>
+          <li class="list-group-item">
+            <h5>Location Of Department : </h5>
+            <p class="ps-4">{{departmentEntity.location}}</p>
+          </li>
+        </ul>
+        <div class="card-body">
+          <a routerLink="/Department" class="btn btn-primary mx-1">Back</a>
+          <a (click)="DeleteDept()" class="btn btn-danger mx-1">Delete</a>
+        </div>
+    </div>
+</div>

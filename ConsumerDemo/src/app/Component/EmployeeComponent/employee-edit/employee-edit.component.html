@@ -1,0 +1,92 @@
+<div class="row my-3">
+    <div class="col-12">
+        <h1 class="text-center">{{title}}</h1>
+    </div>
+</div>
+
+<div class="row my-3">
+    <div class="col-12" [hidden]="selectDepartment">
+        <h1 class="alert alert-danger"  role="alert">Please, Select Department</h1>
+    </div>
+</div>
+
+<form class="my-5" #From_add_edit="ngForm" (ngSubmit)="Employee_add_edit()">
+
+    <div class="row p-5" style="background-color: #ccc;">
+        <div class="form-group col-6">
+            <label for="inputFName">First Name</label>
+            <input type="text" class="form-control" required id="inputFName" name="inputFName" #inputFName="ngModel"
+                [(ngModel)]="employeeEntity.firstName" placeholder="First Name">
+            <div [hidden]="inputFName.valid || inputFName.pristine" class="alert alert-danger">
+                This Filed is required
+            </div>
+        </div>
+        <div class="form-group col-6">
+            <label for="inputLName">Last Name</label>
+            <input type="text" class="form-control" id="inputLName" required #inputLName="ngModel" name="inputLName"
+                [(ngModel)]="employeeEntity.lastName" placeholder="Last Name">
+            <div>
+                <div [hidden]="inputLName.valid || inputLName.pristine" class="alert alert-danger">
+                    This Filed is required
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-6">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" required #inputAddress="ngModel"
+                name="inputAddress" [(ngModel)]="employeeEntity.address" placeholder="Address">
+            <div>
+                <div [hidden]="inputAddress.valid || inputAddress.pristine" class="alert alert-danger">
+                    This Filed is required
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-6">
+            <label for="inputSalary">Salary</label>
+            <input type="number" class="form-control" id="inputSalary" required min="1" value="1" #inputSalary="ngModel"
+                name="inputSalary" [(ngModel)]="employeeEntity.salary" placeholder="Address">
+            <div>
+                <div [hidden]="inputSalary.valid || inputSalary.pristine" class="alert alert-danger">
+                    This Filed is required
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-6">
+            <label for="inputDof">Date Of Birth</label>
+            <input type="date" class="form-control" id="inputDof" required #inputDof="ngModel" name="inputDof"
+                [(ngModel)]="employeeEntity.doB"   [ngModel]="employeeEntity?.doB?.toString() | date: 'yyyy-MM-dd'"
+                [disabled]="false" max="{{maxDate | date: 'yyyy-MM-dd'}}">
+            <div>
+                <div [hidden]="inputDof.valid || inputDof.pristine" class="alert alert-danger">
+                    This Filed is required
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-6">
+            <label for="inputGeneder">Geneder</label>
+            <select id="inputGeneder" class="form-select" #inputGeneder="ngModel"
+            name="inputGeneder" [(ngModel)]="employeeEntity.geneder">
+                <!-- [(ngModel)]="prod.cat_name"> -->
+                <option value="0">Male</option>
+                <option value="1">Femmale</option>
+            </select>
+        </div>
+ 
+        <div class="form-group col-6">
+            <label for="inputDepartment">Department</label>
+            <select id="inputDepartment" class="form-select" #inputDepartment="ngModel" ngModel
+            name="inputDepartment" [(ngModel)]="employeeEntity.department_Id"  (change)="onSelect()" 
+            [ngModel]="employeeEntity.department_Id">
+                <!-- <option [ngValue]="null" selected>Odaberi tip odluke</option> -->
+                
+                <option *ngFor="let depart of departments;index as i" [value]="depart.id" > {{ depart.name}}</option>
+            </select>
+            
+        </div>
+
+        <div class="form-group col-6  mt-4">
+            <button type="submit" [disabled]="From_add_edit.form.invalid" class=" btn btn-primary">{{BtnName}}</button>
+        </div>
+    </div>
+
+</form>

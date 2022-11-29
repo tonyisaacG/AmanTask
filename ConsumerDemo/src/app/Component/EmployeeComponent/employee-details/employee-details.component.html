@@ -1,0 +1,40 @@
+<div class="row justify-content-center align-item-center p-1">
+    <div class="card" style="width: 22rem;">
+        <div class="card-body">
+          <h4 class="card-title">Card Employee</h4>
+          <p class="card-text ps-3">inforamtion about employee.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5>Name Of Employee  : </h5>
+        <!-- employeeEntity: EmployeeModel = { id: 0,firstName:'',lastName:'',address:'',geneder:Geneder.Male,salary:0,doB:new Date('11-1-1998'),department_Id:0 }; -->
+
+            <p class="ps-4">{{employeeEntity.firstName +' '+ employeeEntity.lastName}}</p>
+        </li>
+          <li class="list-group-item">
+            <h5>Address : </h5>
+            <p class="ps-4">{{employeeEntity.address}}</p>
+          </li>
+          <li class="list-group-item">
+            <h5>Geneder : </h5>
+            <p class="ps-4">{{employeeEntity.geneder|gender}}</p>
+          </li>
+          <li class="list-group-item">
+            <h5>Birth Date : </h5>
+            <p class="ps-4">{{employeeEntity?.doB?.toString()??''| date:'MM/dd/yyyy'}}</p>
+          </li>
+          <li class="list-group-item">
+            <h5>Department Name: </h5>
+            <p class="ps-4">{{employeeEntity.department.name}}</p>
+          </li>
+          <li class="list-group-item">
+            <h5>Deparmtent Location : </h5>
+            <p class="ps-4">{{employeeEntity.department.location}}</p>
+          </li>
+        </ul>
+        <div class="card-body">
+          <a routerLink="/Employee" class="btn btn-primary mx-1">Back</a>
+          <a (click)="DeleteEmpt()" class="btn btn-danger mx-1">Delete</a>
+        </div>
+    </div>
+</div>
