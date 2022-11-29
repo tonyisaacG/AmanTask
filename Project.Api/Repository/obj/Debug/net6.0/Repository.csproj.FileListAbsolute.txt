@@ -1,0 +1,17 @@
+E:\SimpleTask\Project.Api\Repository\bin\Debug\net6.0\Repository.deps.json
+E:\SimpleTask\Project.Api\Repository\bin\Debug\net6.0\Repository.dll
+E:\SimpleTask\Project.Api\Repository\bin\Debug\net6.0\Repository.pdb
+E:\SimpleTask\Project.Api\Repository\bin\Debug\net6.0\Database.dll
+E:\SimpleTask\Project.Api\Repository\bin\Debug\net6.0\Database.pdb
+E:\SimpleTask\Project.Api\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+E:\SimpleTask\Project.Api\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\SimpleTask\Project.Api\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+E:\SimpleTask\Project.Api\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+E:\SimpleTask\Project.Api\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+E:\SimpleTask\Project.Api\Repository\obj\Debug\net6.0\Repository.csproj.CopyComplete
+E:\SimpleTask\Project.Api\Repository\obj\Debug\net6.0\Repository.dll
+E:\SimpleTask\Project.Api\Repository\obj\Debug\net6.0\refint\Repository.dll
+E:\SimpleTask\Project.Api\Repository\obj\Debug\net6.0\Repository.pdb
+E:\SimpleTask\Project.Api\Repository\obj\Debug\net6.0\ref\Repository.dll
+E:\SimpleTask\Project.Api\Repository\bin\Debug\net6.0\ViewModels.dll
+E:\SimpleTask\Project.Api\Repository\bin\Debug\net6.0\ViewModels.pdb
