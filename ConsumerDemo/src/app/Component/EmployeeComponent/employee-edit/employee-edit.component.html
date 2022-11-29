@@ -65,7 +65,7 @@
         <div class="form-group col-6">
             <label for="inputGeneder">Geneder</label>
             <select id="inputGeneder" class="form-select" #inputGeneder="ngModel"
-            name="inputGeneder" [(ngModel)]="employeeEntity.geneder">
+            name="inputGeneder" [(ngModel)]="employeeEntity.geneder"  ngModel [ngModel]="employeeEntity.geneder">
                 <!-- [(ngModel)]="prod.cat_name"> -->
                 <option value="0">Male</option>
                 <option value="1">Femmale</option>

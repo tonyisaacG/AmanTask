@@ -16,15 +16,17 @@ export class EmployeeEditComponent implements OnInit {
   title: string = 'Add New Employee';
   BtnName: string = "Create";
   departments: DepartmentModel[] = [];
-  employeeEntity: EmployeeModel = { id: 0, firstName: '', lastName: '', address: '', geneder: Geneder.Male, salary: 1, doB: null, department_Id: 0 };
+  employeeEntity: EmployeeModel = { id: 0, firstName: '', lastName: '', address: '', geneder:Geneder.Femmale, salary: 1, doB: null, department_Id: 0 };
   selectDepartment:boolean=true;
   maxDate:string =  new Date().toLocaleDateString();
+  
   constructor(private params: ActivatedRoute,
     private employee: EmployeeApiService,
     private department: DepartmentApiService,
     private router: Router) { }
 
   ngOnInit(): void {
+    
     // this.id = this.params.snapshot.paramMap.get('id')
     this.GetDepartments();
     this.params.paramMap.subscribe(param => {
@@ -66,13 +68,16 @@ export class EmployeeEditComponent implements OnInit {
   }
 
   Employee_add_edit() {
+    console.log(this.employeeEntity);
     if (this.Edit) {
+      this.employeeEntity.geneder = +this.employeeEntity.geneder;
       this.employee.Update(this.employeeEntity).subscribe(() => {
         this.router.navigateByUrl('/Employee');
       });
     }
     else {
       if (this.employeeEntity.department_Id > 0) {
+        this.employeeEntity.geneder = +this.employeeEntity.geneder;
         this.employee.Add(this.employeeEntity).subscribe(() => {
           this.router.navigateByUrl('/Employee');
         });
